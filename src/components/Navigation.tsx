@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,12 +18,14 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-elegant">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center space-x-2">
-            <div className="w-12 h-12 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold">
-              <span className="text-2xl font-serif font-bold text-primary">R</span>
-            </div>
-            <span className="text-2xl font-serif font-bold bg-gradient-gold bg-clip-text text-transparent">
-              Restaurante
+          <div className="flex items-center space-x-3">
+            <img 
+              src={logo} 
+              alt="Mil Quinientos Veintinueve Gastrobar" 
+              className="w-14 h-14 rounded-full object-cover shadow-gold"
+            />
+            <span className="text-xl font-serif font-bold bg-gradient-gold bg-clip-text text-transparent">
+              Mil Quinientos Veintinueve
             </span>
           </div>
 
