@@ -50,9 +50,15 @@ export default {
         gold: {
           DEFAULT: "hsl(var(--gold))",
           dark: "hsl(var(--gold-dark))",
+          bright: "hsl(var(--gold-bright))",
         },
-        chocolate: "hsl(var(--chocolate))",
+        chocolate: {
+          DEFAULT: "hsl(var(--chocolate))",
+          light: "hsl(var(--chocolate-light))",
+        },
         cream: "hsl(var(--cream))",
+        emerald: "hsl(var(--emerald))",
+        coral: "hsl(var(--coral))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -96,10 +102,18 @@ export default {
       backgroundImage: {
         "gradient-gold": "var(--gradient-gold)",
         "gradient-elegant": "var(--gradient-elegant)",
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-accent": "var(--gradient-accent)",
       },
       boxShadow: {
         elegant: "var(--shadow-elegant)",
         gold: "var(--shadow-gold)",
+        lift: "var(--shadow-lift)",
+        glow: "var(--shadow-glow)",
+      },
+      transitionTimingFunction: {
+        smooth: "var(--transition-smooth)",
+        spring: "var(--transition-spring)",
       },
       fontFamily: {
         serif: ["Playfair Display", "serif"],
