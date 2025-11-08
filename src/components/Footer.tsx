@@ -10,7 +10,16 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold">
                 <span className="text-xl font-serif font-bold text-primary">R</span>
               </div>
-              <span className="text-xl font-serif font-bold">Mil Quinientos Veintinueve</span>
+              <div className="flex items-center space-x-3">
+                <img 
+                  src={logo} 
+                  alt="Mil Quinientos Veintinueve Gastrobar" 
+                  className="w-20 h-20 rounded-full object-cover shadow-gold"
+                />
+                <span className="text-xl font-serif font-bold bg-gradient-gold bg-clip-text text-transparent">
+                  Mil Quinientos Veintinueve
+                </span>
+              </div>
             </div>
             <p className="text-primary-foreground/80">
               Experiencia gastronómica de excelencia desde 2010
