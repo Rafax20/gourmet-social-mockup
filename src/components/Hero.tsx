@@ -1,24 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { useEffect, useState } from "react";
-import { Carousel, CarouselContent, CarouselItem, type CarouselApi } from "@/components/ui/carousel";
-import heroImage1 from "@/assets/hero-gourmet-1.jpg";
-import heroImage2 from "@/assets/hero-gourmet-2.jpg";
-import heroImage3 from "@/assets/hero-gourmet-3.jpg";
+import heroImage from "@/assets/hero-restaurant.jpg";
 
 const Hero = () => {
-  const [api, setApi] = useState<CarouselApi>();
-  
-  const heroImages = [heroImage1, heroImage2, heroImage3];
-
-  useEffect(() => {
-    if (!api) return;
-
-    const intervalId = setInterval(() => {
-      api.scrollNext();
-    }, 5000);
-
-    return () => clearInterval(intervalId);
-  }, [api]);
   const scrollToReservas = () => {
     const element = document.getElementById("reservas");
     if (element) {
@@ -28,28 +11,14 @@ const Hero = () => {
 
   return (
     <section id="inicio" className="relative h-screen flex items-center justify-center overflow-hidden">
-      <Carousel 
-        setApi={setApi}
-        className="absolute inset-0"
-        opts={{
-          loop: true,
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: `url(${heroImage})`,
         }}
       >
-        <CarouselContent className="h-screen ml-0">
-          {heroImages.map((image, index) => (
-            <CarouselItem key={index} className="pl-0 h-screen">
-              <div
-                className="w-full h-full bg-cover bg-center transition-transform duration-700"
-                style={{
-                  backgroundImage: `url(${image})`,
-                }}
-              >
-                <div className="w-full h-full bg-gradient-to-b from-primary/80 via-primary/60 to-primary/90"></div>
-              </div>
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-      </Carousel>
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/80 via-primary/60 to-primary/90"></div>
+      </div>
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-serif font-bold text-primary-foreground mb-6">
