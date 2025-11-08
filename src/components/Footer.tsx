@@ -10,7 +10,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold">
                 <span className="text-xl font-serif font-bold text-primary">R</span>
               </div>
-              <span className="text-xl font-serif font-bold">Restaurante</span>
+              <span className="text-xl font-serif font-bold">Mil Quinientos Veintinueve</span>
             </div>
             <p className="text-primary-foreground/80">
               Experiencia gastronómica de excelencia desde 2010
