@@ -22,7 +22,7 @@ const Navigation = () => {
             <img 
               src={logo} 
               alt="Mil Quinientos Veintinueve Gastrobar" 
-              className="w-14 h-14 rounded-full object-cover shadow-gold"
+              className="w-16 h-16 rounded-full object-cover shadow-gold"
             />
             <span className="text-xl font-serif font-bold bg-gradient-gold bg-clip-text text-transparent">
               Mil Quinientos Veintinueve
