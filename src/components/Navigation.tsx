@@ -16,13 +16,13 @@ const Navigation = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-elegant">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-3">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-3">
             <img 
               src={logo} 
               alt="Mil Quinientos Veintinueve Gastrobar" 
-              className="w-16 h-16 rounded-full object-cover shadow-gold"
+              className="w-20 h-20 rounded-full object-cover shadow-gold"
             />
             <span className="text-xl font-serif font-bold bg-gradient-gold bg-clip-text text-transparent">
               Mil Quinientos Veintinueve
