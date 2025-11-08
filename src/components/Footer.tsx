@@ -1,5 +1,4 @@
 import { Facebook, Instagram, Twitter } from "lucide-react";
-import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -9,14 +8,9 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold">
-                  <div className="flex items-center space-x-3">
-                  <img 
-                    src={logo} 
-                    alt="Mil Quinientos Veintinueve Gastrobar" 
-                    className="w-20 h-20 rounded-full object-cover shadow-gold"
-                  />
+                <span className="text-xl font-serif font-bold text-primary">R</span>
               </div>
-              <span className="text-xl font-serif font-bold">Mil Quinientos Veintinueve Gastrobar</span>
+              <span className="text-xl font-serif font-bold">Restaurante</span>
             </div>
             <p className="text-primary-foreground/80">
               Experiencia gastronómica de excelencia desde 2010
