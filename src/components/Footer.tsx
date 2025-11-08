@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/60">
-          <p>&copy; 2024 Restaurante Gourmet. Todos los derechos reservados.</p>
+          <p>&copy; 2025 Restaurante Gourmet. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
