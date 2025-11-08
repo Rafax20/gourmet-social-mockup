@@ -8,16 +8,19 @@ const Gallery = () => {
       image: dish1,
       title: "Entrada Gourmet",
       description: "Selección de aperitivos con ingredientes de temporada",
+      alt: "Vieiras selladas con hierbas frescas y salsas coloridas en presentación elegante",
     },
     {
       image: dish2,
       title: "Plato Principal",
       description: "Cortes premium con guarniciones artesanales",
+      alt: "Corte de carne premium con vegetales salteados y salsa intensa en plato gourmet"
     },
     {
       image: dish3,
-      title: "Postre Signature",
+      title: "Postre Representativo",
       description: "Creaciones dulces que deleitan el paladar",
+      alt: "Pastel de chocolate brillante con esfera decorativa y hoja de oro sobre plato artístico"
     },
   ];
 
