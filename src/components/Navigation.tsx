@@ -22,7 +22,7 @@ const Navigation = () => {
             <img 
               src={logo} 
               alt="Mil Quinientos Veintinueve Gastrobar" 
-              className="w-15 h-15 rounded-full object-cover shadow-gold"
+              className="w-14 h-14 rounded-full object-cover shadow-gold"
             />
             <span className="text-xl font-serif font-bold bg-gradient-gold bg-clip-text text-transparent">
               Mil Quinientos Veintinueve
@@ -67,7 +67,6 @@ const Navigation = () => {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden text-foreground"
-            aria-label={isOpen ? "Cerrar menú" : "Abrir menú"}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
