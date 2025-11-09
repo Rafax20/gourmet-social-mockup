@@ -49,12 +49,12 @@ const Navigation = () => {
             >
               Galería
             </button>
-            <button
+            {/* <button
               onClick={() => scrollToSection("reservas")}
               className="text-foreground hover:text-accent transition-colors font-medium"
             >
               Reservas
-            </button>
+            </button> */}
             <Button
               onClick={() => scrollToSection("reservas")}
               className="bg-gradient-gold text-primary font-semibold hover:opacity-90 shadow-gold"
@@ -94,12 +94,12 @@ const Navigation = () => {
             >
               Galería
             </button>
-            <button
+            {/* <button
               onClick={() => scrollToSection("reservas")}
               className="block w-full text-left px-4 py-2 text-foreground hover:bg-muted rounded-md transition-colors"
             >
               Reservas
-            </button>
+            </button> */}
             <Button
               onClick={() => scrollToSection("reservas")}
               className="w-full bg-gradient-gold text-primary font-semibold hover:opacity-90 shadow-gold"
