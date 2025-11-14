@@ -51,37 +51,37 @@ const Hero = () => {
         </CarouselContent>
       </Carousel>
 
-      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-fade-in">
-        <h1 className="text-5xl md:text-7xl font-serif font-bold text-primary-foreground mb-6">
+      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+        <h1 className="text-5xl md:text-7xl font-serif font-bold text-primary-foreground mb-6 animate-scale-in">
           Experiencia Gastronómica
-          <span className="block mt-2 bg-gradient-gold bg-clip-text text-transparent">
+          <span className="block mt-2 bg-gradient-gold bg-clip-text text-transparent animate-slide-right">
             Extraordinaria
           </span>
         </h1>
-        <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
+        <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto animate-fade-in [animation-delay:300ms] opacity-0 [animation-fill-mode:forwards]">
           Déjate seducir por sabores únicos en un ambiente de elegancia inigualable
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up [animation-delay:600ms] opacity-0 [animation-fill-mode:forwards]">
           <Button
             onClick={scrollToReservas}
             size="lg"
-            className="bg-gradient-gold text-primary font-semibold text-lg px-8 py-6 hover:opacity-90 shadow-gold transition-all hover:scale-105"
+            className="bg-gradient-gold text-primary font-semibold text-lg px-8 py-6 hover:opacity-90 shadow-gold transition-all hover:scale-110 hover:shadow-2xl"
           >
             Reservar Ahora
           </Button>
           <Button
             size="lg"
             variant="outline"
-            className="border-2 border-primary-foreground text-primary hover:bg-primary-foreground hover:text-primary text-lg px-8 py-6 transition-all hover:scale-105"
+            className="border-2 border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary text-lg px-8 py-6 transition-all hover:scale-110"
           >
             Ver Menú
           </Button>
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-float">
         <svg
-          className="w-6 h-6 text-primary-foreground"
+          className="w-6 h-6 text-primary-foreground opacity-80"
           fill="none"
           strokeLinecap="round"
           strokeLinejoin="round"
