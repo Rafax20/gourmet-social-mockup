@@ -51,14 +51,23 @@ export default {
           DEFAULT: "hsl(var(--gold))",
           dark: "hsl(var(--gold-dark))",
           bright: "hsl(var(--gold-bright))",
+          light: "hsl(var(--gold-light))",
         },
         chocolate: {
           DEFAULT: "hsl(var(--chocolate))",
           light: "hsl(var(--chocolate-light))",
+          dark: "hsl(var(--chocolate-dark))",
         },
         cream: "hsl(var(--cream))",
-        emerald: "hsl(var(--emerald))",
+        emerald: {
+          DEFAULT: "hsl(var(--emerald))",
+          light: "hsl(var(--emerald-light))",
+        },
         coral: "hsl(var(--coral))",
+        teal: {
+          DEFAULT: "hsl(var(--teal))",
+          bright: "hsl(var(--teal-bright))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -102,22 +111,28 @@ export default {
         "scale-in": "scale-in 0.6s ease-out",
         "slide-right": "slide-right 0.6s ease-out",
         "rotate-slow": "rotate-slow 20s linear infinite",
+        "shimmer": "shimmer 3s linear infinite",
+        "pulse-glow": "pulse-glow 2s ease-in-out infinite",
       },
       backgroundImage: {
         "gradient-gold": "var(--gradient-gold)",
         "gradient-elegant": "var(--gradient-elegant)",
         "gradient-hero": "var(--gradient-hero)",
         "gradient-accent": "var(--gradient-accent)",
+        "gradient-shimmer": "var(--gradient-shimmer)",
+        "gradient-luxury": "var(--gradient-luxury)",
       },
       boxShadow: {
         elegant: "var(--shadow-elegant)",
         gold: "var(--shadow-gold)",
         lift: "var(--shadow-lift)",
         glow: "var(--shadow-glow)",
+        dramatic: "var(--shadow-dramatic)",
       },
       transitionTimingFunction: {
         smooth: "var(--transition-smooth)",
         spring: "var(--transition-spring)",
+        bounce: "var(--transition-bounce)",
       },
       fontFamily: {
         serif: ["Playfair Display", "serif"],
