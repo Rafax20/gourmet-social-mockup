@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo-new.png";
+import logo from "@/assets/logo-hd.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +22,7 @@ const Navigation = () => {
             <img 
               src={logo} 
               alt="Mil Quinientos Veintinueve Gastrobar" 
-              className="h-16 w-auto object-contain"
+              className="w-20 h-20 rounded-full object-cover shadow-gold"
             />
           </div>
 
