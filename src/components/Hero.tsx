@@ -65,14 +65,14 @@ const Hero = () => {
           <Button
             onClick={scrollToReservas}
             size="lg"
-            className="bg-gradient-gold text-primary font-semibold text-lg px-8 py-6 hover:opacity-90 shadow-gold transition-all hover:scale-110 hover:shadow-2xl"
+            className="bg-gradient-gold text-primary font-semibold text-lg px-8 py-6 hover:opacity-90 shadow-glow transition-all hover:scale-110 hover:shadow-dramatic"
           >
             Reservar Ahora
           </Button>
           <Button
             size="lg"
             variant="outline"
-            className="border-2 border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary text-lg px-8 py-6 transition-all hover:scale-110"
+            className="border-2 border-primary-foreground text-primary-foreground bg-primary/10 backdrop-blur-sm hover:bg-gradient-gold hover:text-primary hover:border-transparent text-lg px-8 py-6 transition-all hover:scale-110 hover:shadow-gold"
           >
             Ver Menú
           </Button>
